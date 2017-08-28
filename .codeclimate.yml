@@ -2,3 +2,7 @@ engines:
   structure:
     enabled: true
     channel: java
+exclude_paths:
+  - "**.py*"
+  - "**.js"
+  - "**.rb"
