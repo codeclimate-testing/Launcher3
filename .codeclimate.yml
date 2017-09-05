@@ -1,17 +1,19 @@
+---
 engines:
   structure:
     enabled: true
-    channel: java
   duplication:
     enabled: true
-    channel: java
+    channel: cronopio
     config:
       languages:
-        - java
+      - java
+  rubocop:
+    enabled: true
 ratings:
   paths:
-    - "**java"
+  - "**.java"
 exclude_paths:
-  - "**.py*"
-  - "**.js"
-  - "**.rb"
+- "**.py*"
+- "**.js"
+- "**.rb"
